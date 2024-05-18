@@ -23,3 +23,19 @@
   display: block;
   width:100%;
 }
+
+.text-publisher{
+  color: darkgreen;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.text-title{
+  color: black;
+  font-size: 1.5rem;
+  white-space: nowrap;  /*한줄로*/
+  text-overflow: ellipsis; /*...처리*/
+  overflow: hidden;
+}
+.link-detail{
+  display: inline-block;
+}
