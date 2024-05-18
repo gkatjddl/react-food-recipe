@@ -14,9 +14,9 @@ export default function Navbar()
       <h2 className='nav-logo'>
         <Link to={'/'}>음식 레시피 앱</Link>
       </h2>
-      <from onSubmit={hSubmit}>
+      <form onSubmit={hSubmit}>
         <input type='text' name='serch' placeholder='재료명을 입력하세요' className='nav-search-input' value={searchParam} onChange={(e)=>{setSearchParam(e.target.value)}}></input>
-      </from>
+      </form>
       <ul className='nav-link-ul'>
         <li>
           <NavLink to={'/'} className="nav-link-li">홈페이지</NavLink>
