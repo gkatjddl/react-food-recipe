@@ -50,14 +50,18 @@
 
 .favorites-btn{
   display:inline-block;
-  background: black;
-  color:white;
+  background: white;
+  color:black;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
   letter-spacing: 1.5px;/*글자간격 넓히기*/
   font-size: large;
+  transition: background-color 0.5s ease;
 }
-
+.favorites-btn:hover{
+  background: black;
+  color: white;
+}
 .recipe-title{
   color:black;
   font-weight: 600;
@@ -67,6 +71,7 @@
   display: flex;
   flex-direction: column;
   gap:8px;
+  color: black;
 }
 
 @media (min-width:1024px)
